@@ -1,4 +1,4 @@
-////////////////////////////////////////////////////////////////////////////////
+﻿////////////////////////////////////////////////////////////////////////////////
 // Copyright 2017 Intel Corporation
 //
 // Licensed under the Apache License, Version 2.0 (the "License"); you may not
@@ -24,7 +24,7 @@ namespace ApiWithoutSecrets {
 
   // ************************************************************ //
   // VulkanTutorial01Parameters                                   //
-  //                                                              //
+  // Vulkan 程序框架 必须的成员变量                                                            //
   // Vulkan specific parameters                                   //
   // ************************************************************ //
   struct VulkanTutorial01Parameters {
@@ -43,7 +43,8 @@ namespace ApiWithoutSecrets {
 
   // ************************************************************ //
   // Tutorial01                                                   //
-  //                                                              //
+  // vulkan 应用框架
+  // 主要框架流程：0.Load Vulkan Api Library 1.加载vulkan函数 2.创建VK 实例 3.vkEnumerateInstanceExtensionProperties 4.vkEnumerateInstanceLayerProperties
   // Class for presenting Vulkan usage topics                     //
   // ************************************************************ //
   class Tutorial01 : public OS::ProjectBase {

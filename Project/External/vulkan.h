@@ -1,6 +1,6 @@
-#ifndef __vulkan_h_
+﻿#ifndef __vulkan_h_
 #define __vulkan_h_ 1
-
+//Vulkan.h 应用程序开发所需的所有枚举、结构、类型和函数类型
 #ifdef __cplusplus
 extern "C" {
 #endif
