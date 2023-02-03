@@ -1,4 +1,4 @@
-﻿////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
 // Copyright 2017 Intel Corporation
 //
 // Licensed under the Apache License, Version 2.0 (the "License"); you may not
@@ -16,10 +16,8 @@
 
 #include "Tutorial01.h"
 
-int main( int argc, char **argv )
-{  
+int main( int argc, char **argv ) {
   ApiWithoutSecrets::OS::Window window;
-  //vulkan应用程序框架
   ApiWithoutSecrets::Tutorial01 tutorial01;
 
   // Window creation
